@@ -64,7 +64,7 @@ li a {
 nav {
     align-items: center;
     position: relative;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 [href="#top"] {
@@ -77,7 +77,7 @@ nav {
 }
 
 h2 {
-    margin: .75em;
+    margin: .5em;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -86,7 +86,7 @@ h2 {
 
 #hello {
     font-size: 1.25em;
-    margin: 1.5em .5em;
+    margin: 1.25em .5em;
 
 }
 
@@ -103,7 +103,7 @@ img {
 /* Photo gallery */
 
 #chile {
-    top: -2.5em;
+    top: -1.5em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -111,7 +111,7 @@ img {
 }
 
 #guat {
-    top: 17em;
+    top: -1.25em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ img {
 }
 
 #hawaii {
-    bottom: 3em;
+    bottom: 1.5em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ img {
 }
 
 #iran {
-    bottom: 39em;
+    bottom: 38em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -141,14 +141,14 @@ img {
 }
 
 #italy {
-    bottom: 2.5em;
+    bottom: 1.5em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
 #moab {
-    bottom: 2.75em;
+    bottom: 2.09em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -156,35 +156,35 @@ img {
 }
 
 #rocky {
-    bottom: 17.9em;
+    bottom: 16em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
 #swiss {
-    bottom: 17.5em;
+    bottom: 16em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
 #uk {
-    bottom: 17.5em;
+    bottom: 16em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
 #usa {
-    bottom: 17.5em;
+    bottom: 16em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
 #wyoming {
-    bottom: 17.5em;
+    bottom: 16em;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -269,8 +269,8 @@ footer {
        grid-template-rows: auto auto auto auto auto auto;
        grid-column-gap: 0%;
        margin-left: -27px;
-       margin-top: 8px;
-       padding-top: 8px;
+       margin-top: 44px;
+       padding-top: 70px;
        justify-content: left;
         
     }
@@ -297,8 +297,8 @@ footer {
 
     #chile {
         position: relative;
-        top: -5%;
-        left: 10%;
+        top: -7%;
+        left: 5%;
     }
 
     #guat-img, #guat{
@@ -308,7 +308,7 @@ footer {
     #guat {
         position: relative;
         top: -90%;
-        right: -54%;
+        right: -7%;
     }
     #hawaii-img, #hawaii {
         grid-column: 1;
@@ -316,7 +316,7 @@ footer {
     }
     #hawaii {
         position: relative;
-        top: -5%;
+        top: -3%;
         left: 5%;
     }
     #iran-img, #iran {
@@ -326,7 +326,7 @@ footer {
     #iran {
         position: relative;
         top: -97%;
-        right: -10%;
+        right: -7%;
     }
     #ireland-img, #ireland {
         grid-column: 1;
@@ -335,7 +335,7 @@ footer {
     #ireland {
         position: relative;
         top: -97%;
-        right: -15%;
+        right: -7%;
     }
     #italy-img, #italy {
         grid-column: 2;
@@ -344,7 +344,7 @@ footer {
     #italy {
         position: relative;
         top: -3%;
-        right: -15%;
+        right: -7%;
     }
     #moab-img, #moab {
         grid-column: 1;
@@ -353,7 +353,7 @@ footer {
     #moab {
         position: relative;
         top: -6%;
-        left: 10%;
+        left: 7%;
     }
     #rocky-img, #rocky {
         grid-column: 2;
@@ -362,7 +362,7 @@ footer {
     #rocky {
         position: relative;
         top: -92%;
-        left: 12%;
+        left: 7%;
     }
     #swiss-img, #swiss {
         grid-column: 1;
@@ -371,7 +371,7 @@ footer {
     #swiss {
         position: relative;
         top: -92%;
-        left: 15%;
+        left: 7%;
     }
     #uk-img, #uk {
         grid-column: 2;
@@ -380,7 +380,7 @@ footer {
     #uk {
         position: relative;
         top: -92%;
-        right: -13%;
+        right: -7%;
     }
     #usa-img, #usa {
         grid-column: 1;
@@ -389,7 +389,7 @@ footer {
     #usa {
         position: relative;
         top: -92%;
-        right: -13%;
+        right: -7%;
     }
     #wyoming-img, #wyoming {
         grid-column: 2;
@@ -398,7 +398,7 @@ footer {
     #wyoming {
         position: relative;
         top: -92%;
-        right: -13%;
+        right: -7%;
     }
     #contact {
         position: relative;
@@ -428,7 +428,7 @@ footer {
         }
 
         ul {
-            padding: 3em 14em;
+            padding: 1.75em 13em;
             padding-left: 49em;
             margin-right: -14em;
         }
@@ -442,13 +442,15 @@ footer {
             grid-template-columns: 30% 30% 30%;
         }
 
-        #hawaii-img, #hawaii {
-            grid-column: 3;
-            grid-row: 1;
+        #chile-img, #chile {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
         }
-        #hawaii {
-            top: -8%;
-            left: 15%
+    
+        #chile {
+            
+            top: -5%;
+            left: 10%;
         }
 
         #guat-img, #guat{
@@ -456,46 +458,117 @@ footer {
             grid-row: 1;
         }
         #guat {
-            position: relative;
+          
             top: -90%;
             right: -10%;
+        }
+
+        #hawaii-img, #hawaii {
+            grid-column: 3;
+            grid-row: 1;
+        }
+        #hawaii {
+           
+            top: -8%;
+            left: 15%
         }
 
         #iran-img, #iran {
             grid-column: 1;
             grid-row: 2;
         }
+
+        #iran {
+            
+            top: -97%;
+            right: -10%;
+        }
+
         #ireland-img, #ireland {
             grid-column: 2;
             grid-row: 2;
         }
+
+        #ireland {
+            
+            top: -97%;
+            right: -15%;
+        }
+
         #italy-img, #italy {
             grid-column: 3;
             grid-row: 2
         }
+
+        #italy {
+            
+            top: -3%;
+            right: -15%;
+        }
+
         #moab-img, #moab {
             grid-column: 1;
             grid-row: 3;
         }
+
+        #moab {
+          
+            top: -6%;
+            left: 10%;
+        }
+
         #rocky-img, #rocky {
             grid-column: 2;
             grid-row: 3;
         }
+
+        #rocky {
+         
+            top: -92%;
+            left: 12%;
+        }
+
         #swiss-img, #swiss {
             grid-column: 3;
             grid-row: 3
         }
+
+        #swiss {
+           
+            top: -92%;
+            left: 15%;
+        }
+
         #uk-img, #uk {
             grid-column: 1;
             grid-row: 4;
         }
+
+        #uk {
+            
+            top: -92%;
+            right: -13%;
+        }
+        
         #usa-img, #usa {
             grid-column: 2;
             grid-row: 4;
         }
+
+        #usa {
+          
+            top: -92%;
+            right: -13%;
+        }
+
         #wyoming-img, #wyoming {
             grid-column: 3;
             grid-row: 4;
+        }
+
+        #wyoming {
+            top: -92%;
+            right: -13%;
         }
         #your-name, #your-email, #your-message {
             align-items: center;
